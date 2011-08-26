@@ -8,16 +8,19 @@ The only file you need to look is index.php. Forget the rest for now.
 
 1) Download Aust. In this example, we deployed the CMS in the admin/ folder (which is the default).
 
-2) Access Aust and install it. If you never installed Aust, just open
+2) Create a MySQL database called 'aust\_php\_example' (UTF-8, please). If you want,
+you can configure the connection in admin/config/database.php file.
+
+3) Access Aust and install it. If you never installed Aust, just open
 http://localhost/path\_to\_aust in your browsers. See the documentation for further details about
 _Installing Aust_.
 
-3) Inside the Admin Panel, create a new Structure called *News* using the *Textual* module. 
+4) Inside the Admin Panel, create a new Structure called *News* using the *Textual* module. 
 See the documentation for further details about _Installing Modules_.
 
-4) Insert some content to the new generated Structure.
+5) Insert some content to the new generated Structure.
 
-5) Now go to index.php (outside Aust) and you should see your content there.
+6) Now go to index.php (outside Aust) and you should see your content there.
 
 ### How the code works
 
