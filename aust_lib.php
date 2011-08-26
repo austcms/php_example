@@ -14,12 +14,11 @@ class AustAdapter
 		$this->apiPath = $path;
 	}
 	
-	function query($queryString, $asArray = true){
+	function query($austApiQueryString, $asArray = true){
 		if( !defined('THIS_TO_BASEURL') ){
 			define('THIS_TO_BASEURL', $this->apiPath);
 		}
 		
-		$_GET = $queryString;
 		ob_start();
 		include($this->apiPath.$this->apiFiles);
 		$result = ob_get_contents();
