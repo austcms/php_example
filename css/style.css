@@ -20,7 +20,7 @@ body {
 	
 	p, ul { margin: 0 0 15px 0; font-size: 1em; line-height: 22px; }
 	
-	ul { margin: 0 0 0 25px; }
+	ul { margin: 0 0 15px 25px; }
 
 	.failure { color: #7A215B; font-weight: bold; }
 /* layout */
