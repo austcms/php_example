@@ -27,6 +27,9 @@ class AustAdapter
 		if( $asArray && is_string($result) ){
 			$result = json_decode($result, true);
 		}
+		if( empty($result) || empty($result['result']) )
+			return array();
+		
 		return $result['result'];
 	}
 	
