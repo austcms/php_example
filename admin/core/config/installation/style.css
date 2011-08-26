@@ -1,0 +1,49 @@
+/* CSS Document */
+
+
+body { 
+	margin: 0;
+	background: url('installation_background.jpg') #ddd;
+	font-family: 'Corbel', Helvetica, Arial, sans-serif;
+	font-size: 76%;
+	height: 100%;
+	text-align: center;
+	text-shadow: 1px 1px #fdfdfd; 
+}
+
+a { color: blue; }
+p { margin: 0; font-size: 1.2em; margin-bottom: 22px; }
+h1 { font-size: 2.5em; margin-top: 0; color: #035387; } 
+h2 { font-size: 1.6em; } 
+
+.error { color: #D70202; font-weight: bold; }
+
+#outer {
+	width: 600px;
+	position: absolute;
+	left: 50%; margin-left: -300px;
+	top: 50%; margin-top: -280px; /* height de .inside -20px */
+  
+	background: url('installation_panel_background.jpg') white;
+	text-align: left;
+	
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+
+	box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.5);
+}
+
+	#outer.error_message {
+	  left: 50%; margin-left: -300px;
+	  top: 50%; margin-top: -100px; /* height de .inside -20px */
+	}
+	
+#conteudo { margin: 20px; display: block; }
+	
+
+label { display: block; font-size: 1.2em; font-weight: bold; }
+input[type=text], input[type=password] { font-size: 1.2em; height: 25px; width: 550px; margin-bottom: 20px; }
+.campo { display: block; padding-bottom: 10px; }
